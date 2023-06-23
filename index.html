@@ -12,18 +12,15 @@
             <img src="images/face.jpg" class="icon imgbtn" onclick="goHome()">
             <li><a class="navitem" href="html/programs.html">Programs</a></li>
             <li><a class="navitem" href="html/cv.html">CV</a></li>
-            <li><a class="navitem" href="html/find-me">Find Me</a></li>
-            <div class="dropdown">
-                <li class="dropbtn navitem">Find Me</li>
-            </div>
+            <li class="dropdown navitem" onmouseover="showFindMe()" onmouseout="hideFindMe()">Find Me</li>
             <li><a class="navitem" href="html/about-me">About Me</a></li>
         </nav>
-        <dl class="dropdown-content">
+        <dl class="dropdown-content" onmouseover="showFindMe()" onmouseout="hideFindMe()">
             <dt>Programs</dt>
-            <dd>- GitHub</dd>
-            <dd>- Replit</dd>
+            <dd><a href="https://github.com/thisisoscar">GitHub</a></dd>
+            <dd><a href="https://replit.com/@thisisoscar">Replit</a></dd>
             <dt>Social Media</dt>
-            <dd>- LinkedIn</dd>
+            <dd><a href="https://www.linkedin.com/in/oscar-mappley-6a2649251/">LinkedIn</a></dd>
         </dl>
     </body>
 </html>
